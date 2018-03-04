@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_title_size">18sp</dimen>
+    <dimen name="text_welcome_width">300dp</dimen>
+    <dimen name="button_text_size">17sp</dimen>
+    <dimen name="button_width">250dp</dimen>
+    <dimen name="button_height">50dp</dimen>
+    <dimen name="text_margin_layout">5dp</dimen>
+    <dimen name="text_title_margin_top">30dp</dimen>
+    <dimen name="margin_title_to_button">60dp</dimen>
+    <dimen name="margin_button_to_button">25dp</dimen>
+    <dimen name="icon_padding">8dp</dimen>
+    <dimen name="btn_text_padding">8dp</dimen>
+    <dimen name="btn_text_padding_start">12dp</dimen>
+    <dimen name="btn_text_padding_vertical">15dp</dimen>
+
+    <dimen name="login_size">20sp</dimen>
+    <dimen name="icon_arrow_margin">20dp</dimen>
+    <dimen name="text_login_width">240dp</dimen>
+    <dimen name="text_login_margin_top">90dp</dimen>
+    <dimen name="btn_login_width">290dp</dimen>
+    <dimen name="btn_login_margin_start">30dp</dimen>
+
+    <dimen name="layout_result_margin_horizontal">30dp</dimen>
+    <dimen name="text_name_size">15sp</dimen>
+    <dimen name="text_source_size">10sp</dimen>
+    <dimen name="text_name_margin_start">10dp</dimen>
+    <dimen name="text_name_margin_top">7dp</dimen>
+    <dimen name="text_source_margin_vertical">2dp</dimen>
+    <dimen name="icon_result_width">45dp</dimen>
+    <dimen name="icon_result_height">45dp</dimen>
+    <dimen name="icon_result_margin_bottom">20dp</dimen>
+    <dimen name="text_result_margin_top">130dp</dimen>
+    <dimen name="text_result_padding">12dp</dimen>
+    <dimen name="text_result_padding_bottom">24dp</dimen>
+    <dimen name="btn_next_margin_vertical">12dp</dimen>
+
+    <dimen name="text_featured_size">19sp</dimen>
+    <dimen name="layout_article_padding_horizontal">32dp</dimen>
+    <dimen name="layout_article_padding_vertical">24dp</dimen>
+    <dimen name="text_title_article_margin_bottom">12dp</dimen>
+    <dimen name="layout_categories_margin">32dp</dimen>
+    <dimen name="layout_categories_text_margin_bottom">20dp</dimen>
+    <dimen name="searchbar_width">300dp</dimen>
+    <dimen name="searchbar_height">50dp</dimen>
+    <dimen name="searchbar_margin_top">130dp</dimen>
+    <dimen name="searchbar_margin_top_pressed">60dp</dimen>
+    <dimen name="searchbar_margin_bottom">45dp</dimen>
+    <dimen name="searchbar_margin_horizontal">35dp</dimen>
+
+    <dimen name="question_margin_bottom">70dp</dimen>
+    <dimen name="question_maxwidth">315dp</dimen>
+    <dimen name="question_padding_horizontal">30dp</dimen>
+
+    <dimen name="answer_width">200dp</dimen>
+    <dimen name="answer_margin">20dp</dimen>
+    <dimen name="description_margin_horizontal">60dp</dimen>
+    <dimen name="description_margin_bottom">45dp</dimen>
+    <dimen name="description_padding_horizontal">10dp</dimen>
+</resources>

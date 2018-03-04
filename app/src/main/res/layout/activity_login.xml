@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:weightSum="5"
+    tools:context="com.example.whazzup.slicing.MainActivity">
+
+    <TextView
+        android:id="@+id/text_login"
+        android:layout_width="@dimen/text_login_width"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/text_login_margin_top"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:text="@string/login_text"
+        android:textColor="@color/color_outer"
+        android:textSize="@dimen/login_size" />
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="@dimen/btn_login_width"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:drawableEnd="@mipmap/arrow_right_short"
+        android:paddingStart="@dimen/btn_login_margin_start"
+        android:paddingEnd="@dimen/icon_arrow_margin"
+        android:text="@string/facebook"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColor="@color/color_text_facebook"
+        android:textSize="@dimen/login_size"/>
+
+</LinearLayout>

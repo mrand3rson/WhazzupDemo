@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="600"
+    android:transitionOrdering="together">
+
+    <changeBounds/>
+    <changeImageTransform/>
+
+    <slide
+        android:slideEdge="bottom"
+        android:interpolator="@android:interpolator/fast_out_linear_in">
+        <targets>
+            <target android:targetId="@id/featured"/>
+            <target android:targetId="@id/categories"/>
+        </targets>
+    </slide>
+</transitionSet>

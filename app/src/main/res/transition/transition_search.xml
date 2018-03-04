@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="6000"
+    android:transitionOrdering="together">
+
+
+    <slide>
+        <targets>
+            <target android:targetId="@id/featured" />
+            <target android:targetId="@id/categories" />
+        </targets>
+    </slide>
+</transitionSet>

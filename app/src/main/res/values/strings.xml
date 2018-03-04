@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Example Slicing</string>
+    <string name="facebook_app_id">478871852471401</string>
+    <string name="fb_login_protocol_scheme">fb478871852471401</string>
+
+    <string name="temp_text">Temporary long goddamn awesome stub text for text view</string>
+
+    <string name="login_text">Please login using your facebook account</string>
+    <string name="whazzup">Whazzup?</string>
+    <string name="twitter">Twitter</string>
+    <string name="forismatic">Forismatic</string>
+    <string name="giphy">Giphy</string>
+    <string name="wikipedia">Wikipedia</string>
+    <string name="advice">Advice</string>
+    <string name="facebook">Facebook</string>
+    <string name="chuck_norris">Chuck Norris</string>
+    <string name="yo_momma_joke">Yo Momma Joke</string>
+    <string name="featured">Featured</string>
+    <string name="button_next">Next</string>
+
+    <string name="tweet_example">Внезапно завтракал в Плёсе с Резником в одном ресторане. С другой стороны, тут всего их 3. Другой вопрос - чо все сюда так активно ездят?</string>
+    <string name="question_example">Вы любите социальные сети?</string>
+
+    <string name="transition_question">sliding slowly</string>
+    <string name="transition_search">sliding</string>
+</resources>

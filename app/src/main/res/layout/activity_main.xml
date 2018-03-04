@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context="com.example.whazzup.slicing.MainActivity">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:layout_weight="3"
+        android:gravity="center"
+        android:text="@string/temp_text"
+        android:textColor="@color/color_outer"
+        android:textSize="@dimen/button_text_size" />
+
+    <LinearLayout
+        android:id="@+id/buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/margin_button_to_button"
+        android:layout_weight="7"
+        android:orientation="vertical"
+        android:weightSum="7">
+
+
+        <Button
+            android:id="@+id/button_twitter"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:drawablePadding="@dimen/btn_text_padding"
+            android:drawableStart="@mipmap/twitter"
+            android:paddingEnd="@dimen/icon_padding"
+            android:paddingStart="@dimen/btn_text_padding_start"
+            android:text="@string/twitter"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textSize="@dimen/button_text_size" />
+
+        <Button
+            android:id="@+id/button_forismatic"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:drawablePadding="@dimen/btn_text_padding"
+            android:drawableStart="@mipmap/forismatic"
+            android:paddingEnd="@dimen/icon_padding"
+            android:paddingStart="@dimen/btn_text_padding_start"
+            android:text="@string/forismatic"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textSize="@dimen/button_text_size" />
+
+        <Button
+            android:id="@+id/button_giphy"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:drawablePadding="@dimen/btn_text_padding"
+            android:drawableStart="@mipmap/giphy"
+            android:paddingEnd="@dimen/icon_padding"
+            android:paddingStart="@dimen/btn_text_padding_start"
+            android:text="@string/giphy"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textSize="@dimen/button_text_size" />
+
+        <Button
+            android:id="@+id/button_wikipedia"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:drawablePadding="@dimen/btn_text_padding"
+            android:drawableStart="@mipmap/wikipedia"
+            android:paddingEnd="@dimen/icon_padding"
+            android:paddingStart="@dimen/btn_text_padding_start"
+            android:text="@string/wikipedia"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textSize="@dimen/button_text_size" />
+
+        <Button
+            android:id="@+id/button_advice"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:drawablePadding="@dimen/btn_text_padding"
+            android:drawableStart="@mipmap/advice"
+            android:paddingEnd="@dimen/icon_padding"
+            android:paddingStart="@dimen/btn_text_padding_start"
+            android:text="@string/advice"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textSize="@dimen/button_text_size" />
+
+        <Button
+            android:id="@+id/button_chuck_norris"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:drawablePadding="@dimen/btn_text_padding"
+            android:drawableStart="@mipmap/chuck"
+            android:paddingEnd="@dimen/icon_padding"
+            android:paddingStart="@dimen/btn_text_padding_start"
+            android:text="@string/chuck_norris"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textSize="@dimen/button_text_size" />
+
+        <Button
+            android:id="@+id/button_yo_momma"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:drawablePadding="@dimen/btn_text_padding"
+            android:drawableStart="@mipmap/yo"
+            android:paddingEnd="@dimen/icon_padding"
+            android:paddingStart="@dimen/btn_text_padding_start"
+            android:text="@string/yo_momma_joke"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textSize="@dimen/button_text_size" />
+    </LinearLayout>
+</LinearLayout>

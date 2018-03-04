@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scene_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <android.support.v7.widget.SearchView
+        android:id="@+id/search"
+        android:layout_width="@dimen/searchbar_width"
+        android:layout_height="@dimen/searchbar_height"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/searchbar_margin_bottom"
+        android:layout_marginEnd="@dimen/searchbar_margin_horizontal"
+        android:layout_marginStart="@dimen/searchbar_margin_horizontal"
+        android:layout_marginTop="@dimen/searchbar_margin_top"
+        android:background="@drawable/rectangle2"
+        app:queryHint="Введите запрос" />
+
+    <TextView
+        android:id="@+id/featured"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/featured"
+        android:textColor="@color/color_text_featured"
+        android:textSize="@dimen/text_featured_size"
+        android:layout_below="@+id/search"
+        android:layout_alignParentStart="true" />
+
+    <ProgressBar
+        android:id="@+id/giphy_progress"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/giphy_image"
+        android:visibility="gone" />
+
+    <com.felipecsl.gifimageview.library.GifImageView
+        android:id="@+id/giphy_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/layout_categories_margin"
+        android:layout_marginRight="@dimen/layout_categories_margin"
+        android:layout_below="@+id/search"
+        app:srcCompat="@mipmap/advice" />
+
+    <RelativeLayout
+        android:id="@+id/article"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/search"
+        android:layout_marginLeft="@dimen/layout_categories_margin"
+        android:layout_marginRight="@dimen/layout_categories_margin"
+        android:layout_marginTop="@dimen/layout_categories_margin"
+        android:background="@drawable/layout_background"
+        android:paddingBottom="@dimen/layout_article_padding_vertical"
+        android:paddingLeft="@dimen/layout_article_padding_horizontal"
+        android:paddingRight="@dimen/layout_article_padding_horizontal"
+        android:paddingTop="@dimen/layout_article_padding_vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/article_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/text_title_article_margin_bottom" />
+
+        <TextView
+            android:id="@+id/article_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/article_title" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/categories"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="@dimen/layout_categories_margin"
+        android:layout_marginRight="@dimen/layout_categories_margin"
+        android:layout_marginTop="@dimen/layout_categories_margin"
+        android:layout_below="@+id/featured">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/layout_categories_text_margin_bottom"
+            android:gravity="center_horizontal"
+            android:text="TextView"
+            android:textColor="@color/color_outer" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/layout_categories_text_margin_bottom"
+            android:gravity="center_horizontal"
+            android:text="TextView"
+            android:textColor="@color/color_outer" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/layout_categories_text_margin_bottom"
+            android:gravity="center_horizontal"
+            android:text="TextView"
+            android:textColor="@color/color_outer" />
+
+    </LinearLayout>
+
+</RelativeLayout>

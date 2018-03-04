@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.whazzup.slicing.QuestioningActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <TextView
+        android:id="@+id/whazzup_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/text_result_margin_top"
+        android:gravity="center"
+        android:text="@string/whazzup"
+        android:textColor="@color/color_outer"
+        android:textSize="@dimen/text_title_size" />
+
+    <Button
+        android:id="@+id/question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/question_margin_bottom"
+        android:background="@drawable/button"
+        android:maxWidth="@dimen/question_maxwidth"
+        android:paddingEnd="@dimen/question_padding_horizontal"
+        android:paddingStart="@dimen/question_padding_horizontal"
+        android:text="@string/question_example"
+        android:textAllCaps="false"
+        android:textSize="@dimen/button_text_size"
+        android:transitionName="@string/transition_question"/>
+</RelativeLayout>
